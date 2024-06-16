@@ -15,6 +15,11 @@ const index = () => {
       }} href={"/(modals)/booking"}>
         Do bookings
       </Link>
+      <Link href={"/listing/12313"} style={{
+        color: "white"
+      }}>
+      Testing route
+      </Link>
     </View>
   )
 }
