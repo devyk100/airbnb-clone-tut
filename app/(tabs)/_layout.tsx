@@ -30,6 +30,8 @@ const Layout = () => {
       }}/>
       <Tabs.Screen name='profile' options={{
         tabBarLabel: "Profile",
+        // headerTitle: '',
+        headerShown:  false,
         tabBarIcon: ({size, color}) => <Ionicons name='person-circle-outline' {...{color, size}}/>
       }}/>
     </Tabs>
